@@ -6,6 +6,11 @@
  *     struct TreeNode *right;
  * };
  */
+
+
+
+/*   BRUTE FORCE  
+
 int max(int a, int b) {
     return a > b ? a : b;
 }
@@ -82,4 +87,22 @@ struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p,
         free(arr);
         return result;
     }
+}
+
+*/
+
+//optimized one 
+struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p, struct TreeNode* q) {
+    while (root != NULL) {
+        if (p->val < root->val && q->val < root->val) {
+            root = root->left;
+        }
+        else if (p->val > root->val && q->val > root->val) {
+            root = root->right;
+        }
+        else {
+            return root;
+        }
+    }
+    return NULL;  
 }
