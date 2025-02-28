@@ -1,3 +1,5 @@
+/*
+
 class Solution {
 public:
    // void solve(vector<int>& candidates, int target, vector<vector<int>>& result, int sum, vector<int>& arr) {
@@ -23,5 +25,30 @@ public:
         vector<int> arr;
         solve(candidates, target, result, 0, arr);
         return vector<vector<int>>(result.begin(),result.end());
+    }
+};
+
+*/
+class Solution {
+public:
+    void solve(vector<int>& candidates, int target, vector<vector<int>>& result, vector<int>& arr, int sum, int start) {
+        if (sum == target) {
+            result.push_back(arr);
+            return;
+        }
+        if (sum > target) return; 
+
+        for (int i = start; i < candidates.size(); i++) { 
+            arr.push_back(candidates[i]);
+            solve(candidates, target, result, arr, sum + candidates[i], i); 
+            arr.pop_back();
+        }
+    }
+
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        vector<vector<int>> result;
+        vector<int> arr;
+        solve(candidates, target, result, arr, 0, 0); 
+        return result;
     }
 };
