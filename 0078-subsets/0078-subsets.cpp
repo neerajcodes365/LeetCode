@@ -3,10 +3,13 @@ public:
 
     void solve(vector<vector<int>>&result,vector<int>&arr,vector<int>&nums,int index)
 {
-    if(arr.size()<=nums.size()){
+
+     /* if(arr.size()<=nums.size()){
         result.push_back(arr);
     //    return;
-    }
+    }  */
+        result.push_back(arr);
+
 
     for(int i=index;i<nums.size();i++){
         arr.push_back(nums[i]);
