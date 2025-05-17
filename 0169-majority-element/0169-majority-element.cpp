@@ -1,3 +1,4 @@
+/*       NlogN 
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -17,5 +18,26 @@ public:
             }
         }
         return nums[j];
+    }
+};
+
+*/
+
+//O(N)
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+       // sort(nums.begin(),nums.end());
+       int count=0;
+       int leader;
+       for(int i=0;i<nums.size();i++){
+        if(count==0){
+            leader=nums[i];
+            count=1;
+        }
+        if(nums[i]==leader) count++;
+        else count--;
+       }
+       return leader;
     }
 };
