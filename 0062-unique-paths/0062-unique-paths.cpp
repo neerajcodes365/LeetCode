@@ -1,3 +1,4 @@
+/*  TLE ;/
 class Solution {
 private:
     void help(int row, int col, int m, int n) {
@@ -18,3 +19,22 @@ public:
         return count;
     }
 };
+
+*/
+class Solution {
+public:
+    int uniquePaths(int m, int n) {
+        int N = m + n - 2;
+        int r = min(m - 1, n - 1); // Choose the smaller one to optimize
+        long long res = 1;
+
+        for (int i = 1; i <= r; ++i) {
+            res = res * (N - r + i) / i;
+        }
+
+        return (int)res;
+    }
+};
+
+
+
