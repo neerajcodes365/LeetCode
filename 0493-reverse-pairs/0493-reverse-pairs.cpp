@@ -25,14 +25,14 @@ void mergeSort(vector<int>& arr, int left, int right) {
         mergeSort(arr, mid + 1, right);
 
         countfn(arr,left,mid,right);
-        
+
         merge(arr, left, mid, right);
     }
 }
 void countfn(vector<int>&nums,int left,int mid,int right){
     int rt=mid+1;
     for(int i=left;i<=mid;i++){
-        while(rt<=right && nums[i]>2*nums[rt]){
+        while(rt<=right && (long)nums[i]>(long)2*nums[rt]){
             rt++;
         }
         count+=(rt-(mid+1));
