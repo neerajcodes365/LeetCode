@@ -2,7 +2,7 @@ class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
         if(s.size()==0)return 0;
-        unordered_set<int>hash;
+        unordered_set<char>hash;
         int maxi=1;
         int count=1;
         int l=0;
