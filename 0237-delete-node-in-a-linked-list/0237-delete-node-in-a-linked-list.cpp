@@ -8,11 +8,11 @@
  */
 class Solution {
 public:
-    void deleteNode(ListNode* temp) {
+    void deleteNode(ListNode* node) {
         // struct ListNode * temp=node;
-        temp->val=temp->next->val;
+        node->val=node->next->val;
        // struct ListNode * tempfree=temp->next;
-        temp->next=temp->next->next;
+        node->next=node->next->next;
         // free(tempfree);
         //delete tempfree;
         }
