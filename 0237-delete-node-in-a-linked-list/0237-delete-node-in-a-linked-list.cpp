@@ -11,7 +11,7 @@ public:
     void deleteNode(ListNode* node) {
         struct ListNode * temp=node;
         temp->val=temp->next->val;
-        struct ListNode * tempfree=temp->next;
+       // struct ListNode * tempfree=temp->next;
         temp->next=temp->next->next;
         // free(tempfree);
         //delete tempfree;
