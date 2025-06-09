@@ -1,31 +1,29 @@
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        int size = nums.size();
-        make_heap(nums.begin(), nums.end()); // builds a max-heap
+        int n = nums.size();
+        unordered_map<int, int> hash;
 
-        set<int> result;
-        int count = 0;
-        int prev = -1;
-
-        for (int i = 0; i < size && result.size() < k; i++) {
-            pop_heap(nums.begin(), nums.end()); // largest moves to the end
-            int ele = nums.back();              // get largest element
-            nums.pop_back();                    // remove it from heap
-
-            if (ele == prev) {
-                count++;
-            } else {
-                count = 1;
-            }
-
-            if (count >=k) { // this will just add unique elements
-                result.insert(ele);
-            }
-
-            prev = ele;
+        for (auto it : nums) {
+            hash[it]++;
         }
 
-        return vector<int>(result.begin(), result.end());
+        vector<vector<int>> result(n + 1);
+        for (auto it = hash.begin(); it != hash.end(); it++) {
+            result[it->second].push_back(it->first);
+        }
+
+        vector<int> ans;
+        int count = 0;
+
+        for (int i = n; i >= 0 && count < k; i--) {
+            for (auto it : result[i]) {
+                ans.push_back(it);
+                count++;
+                if (count == k) break;
+            }
+        }
+
+        return ans;
     }
 };
