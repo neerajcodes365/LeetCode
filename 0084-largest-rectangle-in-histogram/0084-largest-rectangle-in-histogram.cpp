@@ -5,8 +5,11 @@ public:
         vector<int>front(n),back(n);
         int mini=INT_MAX;
         int index=0;
+      
+      /* this is wrong caz am making the smallest min till that index but we actually want the next small one from both side ,for this we use monotonic stack */ 
+      
         // for(int i=0;i<n;i++){  
-            /*this is wrong caz am making the smallest min till that index but we actually want the next small one from both side ,for this we use monotonic stack*/ 
+            
         //     // mini=min(mini,height[i]);
         //     if(height[i]<mini){
         //         index=i;
@@ -23,10 +26,12 @@ public:
         //     }
         //     back[i]=index;
         // }
-        stack<int>backi;
         // ft.push(height[0]);
         // backi.push(height[n-1]);
 
+
+
+        stack<int>backi;
         for(int i=0;i<n;i++){
             while(!backi.empty() && height[backi.top()]>=height[i]){
                 backi.pop();
@@ -51,7 +56,7 @@ public:
             }
             if(backi.empty()){
                 // front.push_back(-1);
-                front[i]=n;
+                front[i]=n;//no one shorter than the element ,so for calculation
             }else{
                 int num=backi.top();
                 // front.push_back(num);
