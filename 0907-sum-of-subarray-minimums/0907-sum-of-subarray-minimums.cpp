@@ -19,7 +19,7 @@ public:
         while(!st.empty()){st.pop();}
         vector<int>pse(n);
         for(int i=0;i<n;i++){
-            while(!st.empty()&&arr[st.top()]>=arr[i]){
+            while(!st.empty()&&arr[st.top()]>arr[i]){
                 st.pop();
             }
             if(st.empty()){
