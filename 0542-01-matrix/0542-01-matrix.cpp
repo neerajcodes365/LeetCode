@@ -58,12 +58,12 @@ int m;
 vector<vector<int>> updateMatrix(vector<vector<int>>& mat){
     n=mat.size();
     m=mat[0].size();
-    queue<pair<int,int>> q;
+    queue<pair<pair<int,int>,int>> q;
 
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
             if(mat[i][j]==0){
-                q.push({i,j});
+                q.push({{i,j},0});
             }else{
                 mat[i][j]=-1;
             }
@@ -74,8 +74,9 @@ vector<vector<int>> updateMatrix(vector<vector<int>>& mat){
     int dy[4]={0,0,-1,1};
 
     while(!q.empty()){
-        int row=q.front().first;
-        int col=q.front().second;
+        int row=q.front().first.first;
+        int col=q.front().first.second;
+        int level=q.front().second;
         q.pop();
 
         for(int k=0;k<4;k++){
@@ -83,8 +84,8 @@ vector<vector<int>> updateMatrix(vector<vector<int>>& mat){
             int ncol=col+dy[k];
 
             if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && mat[nrow][ncol]==-1){
-                mat[nrow][ncol]=mat[row][col]+1;
-                q.push({nrow,ncol});
+                mat[nrow][ncol]=level+1;
+                q.push({{nrow,ncol},level+1});
             }
         }
     }
