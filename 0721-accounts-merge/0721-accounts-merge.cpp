@@ -30,7 +30,7 @@ class dsu{
         }
     }
 };
-
+/* working brute force 
 class Solution {
 public:
     vector<vector<string>> accountsMerge(vector<vector<string>>& acnt) {
@@ -76,3 +76,45 @@ public:
         return result;
     }
 };
+*/
+class Solution {
+public:
+    vector<vector<string>> accountsMerge(vector<vector<string>>& acnt) {
+        int n = acnt.size();
+        dsu ds(n);
+        
+        unordered_map<string,int>mp;
+        for(int i=0;i<n;i++){
+            for(int j=1;j<acnt[i].size();j++){
+                if(mp.count(acnt[i][j])){
+                    ds.unionf(i,mp[acnt[i][j]]);
+                }else{
+                    mp[acnt[i][j]]=i;
+                }
+            }
+        }
+        unordered_map<int,set<string>>mpp;
+        for( auto [mail,index] :mp){
+            int ulpat=ds.findultimateparent(index);
+            mpp[ulpat].insert(mail);
+        }
+
+
+
+        
+        vector<vector<string>> result;
+        for( auto [index,setofmail]:mpp){
+            vector<string>ans;
+            ans.push_back(acnt[index][0]);
+            for(auto mail:setofmail){
+                ans.push_back(mail);
+            }
+            result.push_back(ans);
+        }
+
+        
+        
+        return result;
+    }
+};
+
