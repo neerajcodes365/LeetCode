@@ -57,14 +57,14 @@ public:
 
 int total=0;
 
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                if(grid[i][j]==1){
-                    int parent = ds.findultimateparent(i*n+j);
-                    total = max(total, ds.size[parent]);
-                }
-            }
-        }
+        // for(int i=0;i<n;i++){
+        //     for(int j=0;j<n;j++){
+        //         if(grid[i][j]==1){
+        //             int parent = ds.findultimateparent(i*n+j);
+        //             total = max(total, ds.size[parent]);
+        //         }
+        //     }
+        // }
 
 
 
@@ -72,7 +72,11 @@ int total=0;
 
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
-            if(grid[i][j]==0){
+            if(grid[i][j]==1){
+                int parent = ds.findultimateparent(i*n+j);
+                total = max(total, ds.size[parent]);   
+            }
+            else if(grid[i][j]==0){
                     int dx[]={0,0,1,-1};
                     int dy[]={1,-1,0,0};
                     unordered_set<int>index;
