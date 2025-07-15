@@ -31,7 +31,14 @@ public:
     char kthCharacter(long long k, vector<int>& op) {
         int size=op.size();
         long long len = 1;
-        
+        /* 
+        Instead of blindly recursing from the last operation to the first (deepest path to root),
+we start from the smallest possible operation that covers k.
+This is much more efficient, because once a character appears in a grammar level,
+its path is fixed and will not change in deeper levels.
+Hence, we only need to go up to that index i, not the full height.
+This avoids unnecessary recursive calls.
+*/
         for(int i = 0; i < size; i++){  
             len *= 2;
             if(k <= len){
@@ -43,8 +50,6 @@ public:
         
 
         int aphla=help(k,op,size-1);
-        // return atoi(aphla);
-
         return 'a'+ (aphla%26);
     }
 };
