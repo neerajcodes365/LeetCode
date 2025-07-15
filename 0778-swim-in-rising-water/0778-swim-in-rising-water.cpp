@@ -17,7 +17,7 @@ public:
             int col=pq.top().second.second;
             pq.pop();
             // if(nodeval>distance[row][col]) continue;
-            // if(row==n-1 && col==n-1)return nodeval;
+            if(row==n-1 && col==n-1)return nodeval;
             int dx[]={0,0,1,-1};
             int dy[]={1,-1,0,0};
             for(int i=0;i<4;i++){
