@@ -4,19 +4,19 @@ public:
     
     int n=nums.size();
         
-        int evenCount= 0, oddCount= 0;
-        int eoLength= 0, oeLength= 0;
+        int even= 0, odd= 0;
+        int eo= 0, oe= 0;
         
         for (int num: nums) {
             if (num%2==0) {
-                evenCount++;
-                eoLength = oeLength + 1;
+                even++;
+                eo = oe + 1;
             } else {
-                oddCount++;
-                oeLength = eoLength + 1;
+                odd++;
+                oe = eo + 1;
             }
         }
         
-        return max({evenCount, oddCount, eoLength, oeLength});
+        return max({even, odd, eo, oe});
     }
-};
+}; 
