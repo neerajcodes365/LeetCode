@@ -1,25 +1,26 @@
 class Solution {
 public:
+  unsigned  long long int help(vector<int>&coins,int amount,long long int  count,int idex,vector<vector<long long>>&dp){
+
+        if(count==amount) return 0;
+        if(count>amount || idex>=coins.size()) return LLONG_MAX;
+            if(dp[count][idex]!=-1)return dp[count][idex];
+
+
+
+        // int pick=
+        unsigned long long int pick=help(coins,amount,count+coins[idex],idex,dp);
+        if(pick!=LLONG_MAX) pick+=1;
+
+        // int notpick;
+       unsigned  long long int notpick=help(coins,amount,count,idex+1,dp);
+
+        return dp[count][idex]=min(pick,notpick);
+    }
     int coinChange(vector<int>& coins, int amount) {
-        int n = coins.size();
-        long long maxi = (long long)INT_MAX + 1;
-        vector<vector<long long>> dp(n + 1, vector<long long>(amount + 1, maxi));
-
-        for (int i = 0; i <= n; i++) {
-            dp[i][0] = 0; 
-        }
-
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= amount; j++) {
-                long long exclude = dp[i - 1][j];
-                long long include = maxi;
-                if (coins[i - 1] <= j) {
-                    include = dp[i][j - coins[i - 1]] + 1;
-                }
-                dp[i][j] = min(include, exclude);
-            }
-        }
-
-        return dp[n][amount] >= maxi ? -1 : (int)dp[n][amount];
+        // mini=-1;
+vector<vector<long long>> dp(amount + 1, vector<long long>(coins.size(), -1));
+      unsigned long long int  mini=help(coins,amount,0,0,dp);
+        return mini==LLONG_MAX?-1:mini;
     }
 };
