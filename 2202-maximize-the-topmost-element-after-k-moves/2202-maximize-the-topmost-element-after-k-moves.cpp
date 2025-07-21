@@ -11,6 +11,7 @@ public:
         for(int i=0;i<k+1;i++){
             if(i==k-1) continue;
             if(i<n) maxi=max(maxi,nums[i]);
+            if(i>n) break;
         }
         return maxi;
     }
