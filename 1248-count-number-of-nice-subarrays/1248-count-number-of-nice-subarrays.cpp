@@ -9,13 +9,14 @@ public:
         for(int i=0;i<n;i++){
             // if(nums[i]&1) {
                 if(nums[i]&1) feq++;
-                mp[feq]++;
             // }
             int crtfeq=feq;
             int need=feq-k;
             if(mp.count(need)){
                 ans+=mp[need];
             }
+                mp[feq]++;
+
 
         }
         return ans;
