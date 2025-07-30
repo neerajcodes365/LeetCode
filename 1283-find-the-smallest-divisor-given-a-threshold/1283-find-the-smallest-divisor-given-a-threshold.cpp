@@ -1,11 +1,11 @@
 class Solution {
 public:
-     bool help(vector<int>& nums, int threshold, int divisor) {
-        int total = 0;
-        for (int num : nums) {
-            total+=(num+divisor-1)/divisor;  
+     bool help(vector<int>&nums, int threshold, int divisor) {
+        int total=0;
+        for (int num:nums) {
+            // total+=(num+divisor-1)/divisor;  
         }
-        return total <= threshold;
+        return total<=threshold;
     }
     int smallestDivisor(vector<int>& nums, int threshold) {
         // int mini=*min_element(nums.begin(),nums.end());
