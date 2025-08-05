@@ -1,48 +1,28 @@
-/*
-less space complexity
 class Solution {
 public:
-    vector<vector<int>> merge(vector<vector<int>>& in) {
-        sort(in.begin(), in.end());  
-        int size = in.size();
-        int i = 0;
-        
-        while (size != 1 && i < size - 1) {  
-            if ((*(in[i].end() - 1)) >= (*(in[i + 1].begin()))) {  
-                int large = (*(in[i].end() - 1) > *(in[i + 1].end() - 1)) ? 
-                            *(in[i].end() - 1) : *(in[i + 1].end() - 1);
+    vector<vector<int>> merge(vector<vector<int>>& inter) {
+        sort(inter.begin(),inter.end());
+        vector<vector<int>>ans;
+        int n=inter.size();
+        int i=0;
+        if(n==1)return inter;
+        while(i<n){ 
+            int first=inter[i][0];
+            int second=inter[i][1];
 
-                // ❌ in[i] = [a, b]; → ✅ use std::vector<int>{a, b}
-                in[i] = {*(in[i].begin()), large};
-
-                in.erase(in.begin() + i + 1); 
-                size--;  
-            } else {
-                i++;
+            // int nextf=inter[i+1][0];
+            // int nexts=inter[i+1][1];
+            int n1=first;
+            int n2=second;
+            while(i<n-1 && n2>=inter[i+1][0]){
+               n1 =min(n1,inter[i+1][0]);
+               n2=max(n2,inter[i+1][1]);
+               i++;
             }
+            ans.push_back({n1,n2});
+            i++;
         }
+        return ans;
 
-        return in;
-    }
-};
-*/
-class Solution {
-public:
-    vector<vector<int>> merge(vector<vector<int>>& intervals) {
-        if (intervals.empty()) return {};
-
-        sort(intervals.begin(), intervals.end());
-        vector<vector<int>> res;
-        res.push_back(intervals[0]);
-
-        for (int i = 1; i < intervals.size(); ++i) {
-            if (res.back()[1] >= intervals[i][0]) {
-                res.back()[1] = max(res.back()[1], intervals[i][1]);
-            } else {
-                res.push_back(intervals[i]);
-            }
-        }
-
-        return res;
     }
 };
