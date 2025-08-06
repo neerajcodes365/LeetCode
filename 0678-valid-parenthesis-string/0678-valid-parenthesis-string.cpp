@@ -1,3 +1,4 @@
+/*
 class Solution {
 public:
         // map<char,int>
@@ -36,4 +37,42 @@ public:
         return help(s,0,0,dp);
         // return ans;
     }
+};
+*/
+
+class Solution {
+public:
+    bool checkValidString(string s) {
+
+        int n=s.length();
+
+        stack<char>st;
+        stack<char>star;
+
+        int i=0;
+        while(i<n){
+            char ch=s[i];
+            if(ch=='(') st.push(ch);
+            else if(ch=='*') {
+                star.push('*');
+            }
+            else{
+                if(!st.empty()){
+                    st.pop();
+                }else if(!star.empty()){
+                    star.pop();
+                }
+                else return false;
+            }
+            i++;
+        }
+
+            while(!st.empty()){
+                // if()?
+                st.pop();
+                if(star.empty()) return false;
+                else star.pop();
+            }
+            return true;
+        }
 };
