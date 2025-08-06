@@ -46,15 +46,15 @@ public:
 
         int n=s.length();
 
-        stack<char>st;
-        stack<char>star;
+        stack<int>st;
+        stack<int>star;
 
         int i=0;
         while(i<n){
             char ch=s[i];
-            if(ch=='(') st.push(ch);
+            if(ch=='(') st.push(i);
             else if(ch=='*') {
-                star.push('*');
+                star.push(i);
             }
             else{
                 if(!st.empty()){
@@ -69,9 +69,16 @@ public:
 
             while(!st.empty()){
                 // if()?
-                st.pop();
-                if(star.empty()) return false;
-                else star.pop();
+                // // st.pop();
+                // if(star.empty()) return false;
+                // else star.pop();
+                // if()
+                if(star.empty() || st.top()>star.top()) return false;
+                else {
+                    st.pop();
+                    star.pop();
+                }
+
             }
             return true;
         }
