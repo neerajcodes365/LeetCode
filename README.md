@@ -34,5 +34,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0570-managers-with-at-least-5-direct-reports](https://github.com/neerajcodes365/LeetCode/tree/main/0570-managers-with-at-least-5-direct-reports/) | Medium |
 | [1757-recyclable-and-low-fat-products](https://github.com/neerajcodes365/LeetCode/tree/main/1757-recyclable-and-low-fat-products/) | Easy |
 <!---LeetCode Topics End-->
