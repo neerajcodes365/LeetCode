@@ -42,10 +42,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [3969-valid-subarrays-with-matching-sum-digits-i](https://github.com/neerajcodes365/LeetCode/tree/main/3969-valid-subarrays-with-matching-sum-digits-i/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [3969-valid-subarrays-with-matching-sum-digits-i](https://github.com/neerajcodes365/LeetCode/tree/main/3969-valid-subarrays-with-matching-sum-digits-i/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
@@ -67,4 +69,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/neerajcodes365/LeetCode/tree/main/3970-shortest-path-with-at-most-k-consecutive-identical-characters/) | Medium |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 <!---LeetCode Topics End-->
