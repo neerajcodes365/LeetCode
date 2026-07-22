@@ -1,36 +1,37 @@
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
-    vector<vector<int>> ans;
-    int size = nums.size();
-    sort(nums.begin(), nums.end());
-    int l, r;
-    for(int start=0;start<size-3;start++){
-        if (start > 0 && nums[start] == nums[start - 1]) continue;
-    for (int i = start+1; i < size - 2; i++) {
-        if (i > start+1 && nums[i] == nums[i - 1]) continue;
-        int sum = target-(nums[i]+nums[start]);
-        l = i + 1;
-        r = size - 1;
-        while (l < r) {
-            int sum2 = nums[l] + nums[r];
-            if (sum2 == sum) {
-                ans.push_back({nums[start],nums[i], nums[l], nums[r]});
-                while (l < r && nums[l] == nums[l + 1]) l++;
-                while (l < r && nums[r] == nums[r - 1]) r--;
-                l++;
-                r--;
-            }
-            else if (sum2 > sum) {
-                r--;
-            }
-            else {
-                l++;
+        vector<vector<int>>ans;
+        int n=nums.size();
+        sort(nums.begin(),nums.end());
+        for(int i=0;i<n;i++){
+            if (i > 0 && nums[i] == nums[i-1]) continue;
+            for(int j=i+1;j<n;j++){
+                if (j > i+1 && nums[j] == nums[j-1]) continue;
+                int a=nums[i];
+                int b=nums[j];
+                long long req= 1LL*target-(a+b);
+                int l=j+1;
+                int r=n-1;
+                while(l<r && l<n && r>-1){
+                    long long sum=nums[l]+nums[r];
+                    if(sum==req){
+                        vector<int>aa;
+                        aa.push_back(a);
+                        aa.push_back(b);
+                        aa.push_back(nums[l]);
+                        aa.push_back(nums[r]);
+                        ans.push_back(aa);
+                         l++;
+                         r--;
+                    while( l<r && l<n-1 && nums[l]==nums[l-1]) l++;
+                    while( l<r && r>0 && nums[r]==nums[r+1]) r--;
+                }
+                else if(sum>req) r--;
+                else l++;
             }
         }
     }
-    }
-    return ans;
-        
+        return ans;
     }
 };
