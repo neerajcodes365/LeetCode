@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0018-4sum](https://github.com/neerajcodes365/LeetCode/tree/main/0018-4sum/) | Medium |
 | [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [3969-valid-subarrays-with-matching-sum-digits-i](https://github.com/neerajcodes365/LeetCode/tree/main/3969-valid-subarrays-with-matching-sum-digits-i/) | Medium |
 ## Hash Table
@@ -72,9 +73,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0018-4sum](https://github.com/neerajcodes365/LeetCode/tree/main/0018-4sum/) | Medium |
 | [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0018-4sum](https://github.com/neerajcodes365/LeetCode/tree/main/0018-4sum/) | Medium |
 <!---LeetCode Topics End-->
