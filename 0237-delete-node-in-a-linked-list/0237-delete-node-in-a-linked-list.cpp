@@ -9,11 +9,13 @@
 class Solution {
 public:
     void deleteNode(ListNode* node) {
-        // struct ListNode * temp=node;
+        ListNode* prv=node;
+        while(node->next!=nullptr){
         node->val=node->next->val;
-       // struct ListNode * tempfree=temp->next;
-        node->next=node->next->next;
-        // free(tempfree);
-        //delete tempfree;
-        }
+        prv=node;
+        node=node->next;
+        
+    }
+    prv->next=nullptr;
+    }
 };
