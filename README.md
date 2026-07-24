@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0018-4sum](https://github.com/neerajcodes365/LeetCode/tree/main/0018-4sum/) | Medium |
 | [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
+| [0455-assign-cookies](https://github.com/neerajcodes365/LeetCode/tree/main/0455-assign-cookies/) | Easy |
 | [3969-valid-subarrays-with-matching-sum-digits-i](https://github.com/neerajcodes365/LeetCode/tree/main/3969-valid-subarrays-with-matching-sum-digits-i/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -80,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0018-4sum](https://github.com/neerajcodes365/LeetCode/tree/main/0018-4sum/) | Medium |
 | [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
+| [0455-assign-cookies](https://github.com/neerajcodes365/LeetCode/tree/main/0455-assign-cookies/) | Easy |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -88,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0018-4sum](https://github.com/neerajcodes365/LeetCode/tree/main/0018-4sum/) | Medium |
+| [0455-assign-cookies](https://github.com/neerajcodes365/LeetCode/tree/main/0455-assign-cookies/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/neerajcodes365/LeetCode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
@@ -100,4 +103,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/neerajcodes365/LeetCode/tree/main/0002-add-two-numbers/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0455-assign-cookies](https://github.com/neerajcodes365/LeetCode/tree/main/0455-assign-cookies/) | Easy |
 <!---LeetCode Topics End-->
