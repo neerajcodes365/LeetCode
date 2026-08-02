@@ -1,35 +1,35 @@
 class MyStack {
-    private:
-    queue<int>q;
 public:
     MyStack() {
-        
     }
-    
+    // deque<int>q;
+    queue<int>q;
+
+   
     void push(int x) {
+        // q.push(x);
+        int n=q.size();
         q.push(x);
-        for(int i=0;i<q.size()-1;i++){
+        while(n){
             q.push(q.front());
             q.pop();
+            n--;
         }
     }
     
     int pop() {
-        int element=q.front();
+        int ele=q.front();
         q.pop();
-        return element;
+        return ele;
     }
     
     int top() {
-        // int element;
-        // for(int i=0;i<size;i++){
-        //     element=q.front();
-        // }
         return q.front();
     }
     
     bool empty() {
-        return q.empty();
+        if(q.size()==0)return true;
+        return false;
     }
 };
 
