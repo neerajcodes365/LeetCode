@@ -7,30 +7,37 @@ public:
     }
     
     void push(int x) {
-        int size=st.size();
-        vector<int>storage;
-        while(!st.empty()){
-            storage.push_back(st.top());
+        // st.push(x);
+        int n=st.size();
+        stack<int>help;
+        while(n--){
+            // st.push()
+            int ele=st.top();
             st.pop();
+            help.push(ele);
         }
         st.push(x);
-        for(int i=storage.size()-1;i>=0;i--){
-            st.push(storage[i]);
+        int m=help.size();
+        while(m--){
+            int ele=help.top();
+            help.pop();
+            st.push(ele);
         }
     }
     
     int pop() {
-        int element=st.top();
+        int ele=st.top();
         st.pop();
-        return element;
+        return ele;
     }
     
     int peek() {
-        return st.top();
+       return st.top();
     }
     
     bool empty() {
-        return st.empty();
+        if(st.size()==0)return true;
+        return false;
     }
 };
 
