@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/neerajcodes365/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
+| [0198-house-robber](https://github.com/neerajcodes365/LeetCode/tree/main/0198-house-robber/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/neerajcodes365/LeetCode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
@@ -48,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0018-4sum](https://github.com/neerajcodes365/LeetCode/tree/main/0018-4sum/) | Medium |
+| [0198-house-robber](https://github.com/neerajcodes365/LeetCode/tree/main/0198-house-robber/) | Medium |
 | [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/neerajcodes365/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0455-assign-cookies](https://github.com/neerajcodes365/LeetCode/tree/main/0455-assign-cookies/) | Easy |
