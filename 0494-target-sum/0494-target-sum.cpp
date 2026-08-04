@@ -1,28 +1,23 @@
 class Solution {
 public:
+ long long help(vector<int>&nums,int index,int sum,int target,vector<vector<int>>&dp){
+        
+       if(index < 0) return sum == target ? 1 : 0;
+        if(sum > target) return 0;
+        if(dp[index][sum]!=-1) return dp[index][sum]; 
+       
+        long long pick =help(nums,index-1,sum+nums[index],target,dp);
+        long long unpick =help(nums,index-1,sum,target,dp);
+       
+        return dp[index][sum]=pick+unpick;
+    }
     int findTargetSumWays(vector<int>& nums, int target) {
-        int n = nums.size();
-        int sum = 0;
-        for (int i : nums) {
-            sum += i;
-        }
-
-        if ((sum + target) % 2 != 0 || abs(target) > sum) return 0;
-
-        int p = (sum + target) / 2;
-
-        vector<vector<int>> dp(n + 1, vector<int>(p + 1, 0));
-        dp[0][0] = 1;
-
-        for (int i = 1; i <= n; i++) {
-            for (int j = 0; j <= p; j++) {
-                if (nums[i - 1] <= j)
-                    dp[i][j] = dp[i - 1][j] + dp[i - 1][j - nums[i - 1]];
-                else
-                    dp[i][j] = dp[i - 1][j];
-            }
-        }
-
-        return dp[n][p];
+        int sum=0;
+        for(auto it:nums)sum+=it;
+        if(target > sum || target < -sum) return 0;
+        if((sum - target) % 2 != 0) return 0;  
+        int ogitarget=(sum-target)/2;
+        vector<vector<int>>dp(nums.size(),vector<int>(ogitarget+1,-1));
+        return help(nums,nums.size()-1,0,ogitarget,dp);
     }
 };
