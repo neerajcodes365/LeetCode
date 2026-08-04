@@ -1,30 +1,25 @@
 class Solution {
 public:
-    bool subsetsum(vector<int>& nums, int sum) {
-        int n = nums.size();
-        vector<vector<bool>> dp(n , vector<bool>(sum + 1, false));
-
-        for (int i = 0; i < n; i++) {
-            dp[i][0] = true;
-        }
-
-        for (int i = 1; i < n; i++) {
-            for (int j = 1; j <= sum; j++) {
-                if (j >= nums[i - 1])
-                    dp[i][j] = dp[i - 1][j] || dp[i - 1][j - nums[i - 1]];
-                else
-                    dp[i][j] = dp[i - 1][j];
-            }
-        }
-
-        return dp[n-1][sum];
+    bool help(vector<int>&nums,int index,int sum,int target,vector<vector<int>>&dp){
+        
+        if(sum==target) return true;
+        if(index<0||sum>target) return false;
+        if(dp[index][sum]!=-1) return dp[index][sum]; 
+       
+        bool pick =help(nums,index-1,sum+nums[index],target,dp);
+        bool unpick =help(nums,index-1,sum,target,dp);
+       
+        return dp[index][sum]=pick||unpick;
     }
 
     bool canPartition(vector<int>& nums) {
-        int sum = 0;
-        for (auto it : nums) sum += it;
-        if (sum % 2 != 0) return false;
-        return subsetsum(nums, sum / 2);
+        int sum=0;
+        for(auto it:nums)sum+=it;
+        int target=sum/2;
+
+        if(sum%2==1)return false;
+        vector<vector<int>>dp(nums.size(),vector<int>(target+1,-1));
+
+        return help(nums,nums.size()-1,0,target,dp);
     }
 };
-auto init = atexit([]() { ofstream("display_runtime.txt") << "0";});
