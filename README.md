@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/neerajcodes365/LeetCode/tree/main/0570-managers-with-at-least-5-direct-reports/) | Medium |
 | [0584-find-customer-referee](https://github.com/neerajcodes365/LeetCode/tree/main/0584-find-customer-referee/) | Easy |
 | [0595-big-countries](https://github.com/neerajcodes365/LeetCode/tree/main/0595-big-countries/) | Easy |
+| [1148-article-views-i](https://github.com/neerajcodes365/LeetCode/tree/main/1148-article-views-i/) | Easy |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/neerajcodes365/LeetCode/tree/main/1378-replace-employee-id-with-the-unique-identifier/) | Easy |
 | [1757-recyclable-and-low-fat-products](https://github.com/neerajcodes365/LeetCode/tree/main/1757-recyclable-and-low-fat-products/) | Easy |
 ## Array
