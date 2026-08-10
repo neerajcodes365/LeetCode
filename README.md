@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0063-unique-paths-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0063-unique-paths-ii/) | Medium |
 | [0070-climbing-stairs](https://github.com/neerajcodes365/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/neerajcodes365/LeetCode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0198-house-robber](https://github.com/neerajcodes365/LeetCode/tree/main/0198-house-robber/) | Medium |
 | [0322-coin-change](https://github.com/neerajcodes365/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/neerajcodes365/LeetCode/tree/main/0416-partition-equal-subset-sum/) | Medium |
@@ -66,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0018-4sum](https://github.com/neerajcodes365/LeetCode/tree/main/0018-4sum/) | Medium |
 | [0063-unique-paths-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0063-unique-paths-ii/) | Medium |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/neerajcodes365/LeetCode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0198-house-robber](https://github.com/neerajcodes365/LeetCode/tree/main/0198-house-robber/) | Medium |
 | [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0322-coin-change](https://github.com/neerajcodes365/LeetCode/tree/main/0322-coin-change/) | Medium |
