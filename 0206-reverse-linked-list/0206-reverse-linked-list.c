@@ -5,20 +5,14 @@
  *     struct ListNode *next;
  * };
  */
-struct ListNode* reverseList(struct ListNode* head) {
-       struct ListNode* prev = NULL;
-    struct ListNode* current = head;
-    struct ListNode* next = NULL;
-
-    while (current != NULL) {
-        next = current->next;  // Store the next node
-        current->next = prev;  // Reverse the current node's pointer
-        prev = current;        // Move prev one step forward
-        current = next;        // Move current one step forward
+struct ListNode* reverseList(struct ListNode* had) {
+    struct ListNode* prv=NULL;
+    struct ListNode* tmp=had;
+    while(tmp!=NULL){
+        struct ListNode* nxtt=tmp->next;
+        tmp->next=prv;
+        prv=tmp;
+        tmp=nxtt;
     }
-
-    head = prev;  // Update the head to the new front of the list
-    return head;
-
-    
+    return prv;
 }
