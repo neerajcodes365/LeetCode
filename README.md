@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/neerajcodes365/LeetCode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0344-reverse-string](https://github.com/neerajcodes365/LeetCode/tree/main/0344-reverse-string/) | Easy |
 | [0516-longest-palindromic-subsequence](https://github.com/neerajcodes365/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/neerajcodes365/LeetCode/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/neerajcodes365/LeetCode/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
@@ -121,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0018-4sum](https://github.com/neerajcodes365/LeetCode/tree/main/0018-4sum/) | Medium |
+| [0344-reverse-string](https://github.com/neerajcodes365/LeetCode/tree/main/0344-reverse-string/) | Easy |
 | [0455-assign-cookies](https://github.com/neerajcodes365/LeetCode/tree/main/0455-assign-cookies/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/neerajcodes365/LeetCode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 ## Linked List
