@@ -85,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0494-target-sum](https://github.com/neerajcodes365/LeetCode/tree/main/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0518-coin-change-ii/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/neerajcodes365/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [0973-k-closest-points-to-origin](https://github.com/neerajcodes365/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [3969-valid-subarrays-with-matching-sum-digits-i](https://github.com/neerajcodes365/LeetCode/tree/main/3969-valid-subarrays-with-matching-sum-digits-i/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/neerajcodes365/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/neerajcodes365/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0973-k-closest-points-to-origin](https://github.com/neerajcodes365/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/neerajcodes365/LeetCode/tree/main/3970-shortest-path-with-at-most-k-consecutive-identical-characters/) | Medium |
 ## Shortest Path
 | Problem Name | Difficulty |
@@ -126,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/neerajcodes365/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0455-assign-cookies](https://github.com/neerajcodes365/LeetCode/tree/main/0455-assign-cookies/) | Easy |
+| [0973-k-closest-points-to-origin](https://github.com/neerajcodes365/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -152,6 +155,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/neerajcodes365/LeetCode/tree/main/0002-add-two-numbers/) | Medium |
 | [0009-palindrome-number](https://github.com/neerajcodes365/LeetCode/tree/main/0009-palindrome-number/) | Easy |
 | [0070-climbing-stairs](https://github.com/neerajcodes365/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
+| [0973-k-closest-points-to-origin](https://github.com/neerajcodes365/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -162,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/neerajcodes365/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/neerajcodes365/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0973-k-closest-points-to-origin](https://github.com/neerajcodes365/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -171,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/neerajcodes365/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/neerajcodes365/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0973-k-closest-points-to-origin](https://github.com/neerajcodes365/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -221,4 +227,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0933-number-of-recent-calls](https://github.com/neerajcodes365/LeetCode/tree/main/0933-number-of-recent-calls/) | Easy |
+## Geometry
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0973-k-closest-points-to-origin](https://github.com/neerajcodes365/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
+## K-D Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0973-k-closest-points-to-origin](https://github.com/neerajcodes365/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 <!---LeetCode Topics End-->
