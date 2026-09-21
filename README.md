@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/neerajcodes365/LeetCode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/neerajcodes365/LeetCode/tree/main/0151-reverse-words-in-a-string/) | Medium |
+| [0242-valid-anagram](https://github.com/neerajcodes365/LeetCode/tree/main/0242-valid-anagram/) | Easy |
 | [0344-reverse-string](https://github.com/neerajcodes365/LeetCode/tree/main/0344-reverse-string/) | Easy |
 | [0516-longest-palindromic-subsequence](https://github.com/neerajcodes365/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/neerajcodes365/LeetCode/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
@@ -93,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/neerajcodes365/LeetCode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
+| [0242-valid-anagram](https://github.com/neerajcodes365/LeetCode/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/neerajcodes365/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/neerajcodes365/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [3969-valid-subarrays-with-matching-sum-digits-i](https://github.com/neerajcodes365/LeetCode/tree/main/3969-valid-subarrays-with-matching-sum-digits-i/) | Medium |
@@ -127,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0018-4sum](https://github.com/neerajcodes365/LeetCode/tree/main/0018-4sum/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/neerajcodes365/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
+| [0242-valid-anagram](https://github.com/neerajcodes365/LeetCode/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/neerajcodes365/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0455-assign-cookies](https://github.com/neerajcodes365/LeetCode/tree/main/0455-assign-cookies/) | Easy |
 | [0973-k-closest-points-to-origin](https://github.com/neerajcodes365/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
