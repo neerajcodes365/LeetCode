@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0595-big-countries](https://github.com/neerajcodes365/LeetCode/tree/main/0595-big-countries/) | Easy |
 | [0596-classes-with-at-least-5-students](https://github.com/neerajcodes365/LeetCode/tree/main/0596-classes-with-at-least-5-students/) | Easy |
 | [0602-friend-requests-ii-who-has-the-most-friends](https://github.com/neerajcodes365/LeetCode/tree/main/0602-friend-requests-ii-who-has-the-most-friends/) | Medium |
+| [0610-triangle-judgement](https://github.com/neerajcodes365/LeetCode/tree/main/0610-triangle-judgement/) | Easy |
 | [0620-not-boring-movies](https://github.com/neerajcodes365/LeetCode/tree/main/0620-not-boring-movies/) | Easy |
 | [0626-exchange-seats](https://github.com/neerajcodes365/LeetCode/tree/main/0626-exchange-seats/) | Medium |
 | [1045-customers-who-bought-all-products](https://github.com/neerajcodes365/LeetCode/tree/main/1045-customers-who-bought-all-products/) | Medium |
