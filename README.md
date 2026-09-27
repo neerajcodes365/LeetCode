@@ -121,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0560-subarray-sum-equals-k](https://github.com/neerajcodes365/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/neerajcodes365/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [3969-valid-subarrays-with-matching-sum-digits-i](https://github.com/neerajcodes365/LeetCode/tree/main/3969-valid-subarrays-with-matching-sum-digits-i/) | Medium |
+| [4038-count-integers-appearing-in-a-single-block](https://github.com/neerajcodes365/LeetCode/tree/main/4038-count-integers-appearing-in-a-single-block/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/neerajcodes365/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/neerajcodes365/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [3969-valid-subarrays-with-matching-sum-digits-i](https://github.com/neerajcodes365/LeetCode/tree/main/3969-valid-subarrays-with-matching-sum-digits-i/) | Medium |
+| [4038-count-integers-appearing-in-a-single-block](https://github.com/neerajcodes365/LeetCode/tree/main/4038-count-integers-appearing-in-a-single-block/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -170,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0229-majority-element-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/neerajcodes365/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [4038-count-integers-appearing-in-a-single-block](https://github.com/neerajcodes365/LeetCode/tree/main/4038-count-integers-appearing-in-a-single-block/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
