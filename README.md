@@ -122,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/neerajcodes365/LeetCode/tree/main/0518-coin-change-ii/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/neerajcodes365/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/neerajcodes365/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
+| [3917-count-indices-with-opposite-parity](https://github.com/neerajcodes365/LeetCode/tree/main/3917-count-indices-with-opposite-parity/) | Easy |
 | [3969-valid-subarrays-with-matching-sum-digits-i](https://github.com/neerajcodes365/LeetCode/tree/main/3969-valid-subarrays-with-matching-sum-digits-i/) | Medium |
 | [4038-count-integers-appearing-in-a-single-block](https://github.com/neerajcodes365/LeetCode/tree/main/4038-count-integers-appearing-in-a-single-block/) | Easy |
 ## Hash Table
