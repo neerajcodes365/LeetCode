@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/neerajcodes365/LeetCode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/neerajcodes365/LeetCode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/neerajcodes365/LeetCode/tree/main/3970-shortest-path-with-at-most-k-consecutive-identical-characters/) | Medium |
+| [3986-number-of-elapsed-seconds-between-two-times](https://github.com/neerajcodes365/LeetCode/tree/main/3986-number-of-elapsed-seconds-between-two-times/) | Easy |
 | [3992-rearrange-string-to-avoid-character-pair](https://github.com/neerajcodes365/LeetCode/tree/main/3992-rearrange-string-to-avoid-character-pair/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
@@ -199,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0009-palindrome-number](https://github.com/neerajcodes365/LeetCode/tree/main/0009-palindrome-number/) | Easy |
 | [0070-climbing-stairs](https://github.com/neerajcodes365/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0973-k-closest-points-to-origin](https://github.com/neerajcodes365/LeetCode/tree/main/0973-k-closest-points-to-origin/) | Medium |
+| [3986-number-of-elapsed-seconds-between-two-times](https://github.com/neerajcodes365/LeetCode/tree/main/3986-number-of-elapsed-seconds-between-two-times/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
